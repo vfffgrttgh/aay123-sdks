@@ -1,5 +1,22 @@
-body {
-  background-color: "black";
-  color: "white";
+.circle {
+  background: "blue";
+  weight: "fit-content";
+  height: "fit-content";
+  padding: "12px";
+  border-radius: "12px";
+  margin: "12px";
+}
+
+.textbox {
+  border: "none";
   font-family: "sans-serif";
+  border-radius: "13px";
+  padding: "12px";
+  margin: "12px";
+}
+
+.nav {
+  background: "black";
+  display: "flex";
+  justify-content: "center";
 }
