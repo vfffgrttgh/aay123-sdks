@@ -6,6 +6,8 @@ export default {
 
   getItem(name: any): void {
     const item: any = localStorage.getItem(name);
+
+    return item;
   },
 
   deleteItem(name: any): void {
