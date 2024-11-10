@@ -6,7 +6,9 @@
       },
 
       getItem(name: any): void {
-        localStorage.getItem(name);
+        const item: any = localStorage.getItem(name);
+
+        return item;
       },
 
       deleteItem(name: any): void {
