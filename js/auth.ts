@@ -1,6 +1,6 @@
-const usernameInput: HTMLInputElement = document.getElementById("username");
-const passwordInput: HTMLInputElement = document.getElementById("password");
-const btn: any = document.getElementById("btn");
+const usernameInput = document.getElementById("username") as HTMLInputElement;
+const passwordInput = document.getElementById("password") as HTMLInputElement;
+const btn = document.getElementById("btn");
 
 function handleSubmit(): void {
   const username = usernameInput.value;
@@ -8,6 +8,6 @@ function handleSubmit(): void {
 
   localStorage.setItem("Username", username);
   localStorage.setItem("Password", password);
-};
+}
 
-btn.onclick = handleSubmit();
+btn.onclick = handleSubmit; // Remove the parentheses to reference the function
