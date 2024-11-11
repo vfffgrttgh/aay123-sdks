@@ -11,7 +11,7 @@ export default {
   },
 
   deleteItem(name: any): void {
-    localStorage.deleteItem(name);
+    localStorage.removeItem(name);
   },
 };
 </script>
