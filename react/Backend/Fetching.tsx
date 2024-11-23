@@ -1,4 +1,4 @@
-import { db } from "../Database/Database";
+import { db } from "./Database";
 
 export function fetchData(type: any) {
     if(type === "JSON" || type === "json") {
