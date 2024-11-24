@@ -7,3 +7,9 @@ export function fetchData(type: any) {
         return db.xml();
     }
 }
+
+export async function fetchAPI(url: string) {
+    const data: any = await (await fetch(url)).json();
+
+    return data;
+}
