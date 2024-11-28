@@ -6,4 +6,4 @@ you need to setup react/vue/svelte with vite and tailwind for your desired compo
 
 If you make a small mistake like setting up react, for vue components and API's then you are dumb.
 
-React Native components and RESTful APIs coming up.
+React Native components and Next.js RSC Templates coming up!
